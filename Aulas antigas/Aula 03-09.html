@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulário</title>
+</head>
+<body>
+	<form action="" method="post">
+		<label>Selecione a data do seu nascimento:</label>
+		<input type="datetime-local" name="dtNascto" id="dtNascto" value=""/><br/>
+		<label>Selecione a hora:</label>
+		<input type="time" name="hora" id="hora" value=""><br/>
+		<label>Informe a quantidade:</label>
+		<input type="number" name="qtd" id="qtd" min="1" max="5" value=""><br/>
+		<label>Selecione o arquivo:</label>
+		<input type="file" name="arquivo" id="arquivo" value=""><br/>
+		<label>Insira CV-Lattes:</label>
+		<input type="url" name="cv" id="cv" value="" size="2" /><br/>
+		<label>Informe a semana:</label>
+		<input type="week" name="semana" id="semana" value=""/><br/>
+		<input type="hidden" name="vlOculto" id="vlOculto" value="100">
+		<label>Nome 1:</label>
+		<input type="text" name="nome1" id="nome1" value="Marcus" disabled /><br/>
+		<label>Nome 2:</label>
+		<input type="text" name="nome2" id="nome2" value="Marcus" readonly /><br/>
+		<label>Senha:</label><input type="password" name="senha" id="senha" value="" maxlength="5" size="20" placeholder="Digite a sua senha" required/><br/>
+		<input type="submit" name="btnGravar" id="btnGravar" value="Gravar"/><br/>
+	</form>
+</body>
+</html>

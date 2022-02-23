@@ -1,0 +1,40 @@
+.mainContainer{
+	border-style: inset;
+	box-shadow: 0px -1px 2px 0px inset;
+	background-color: lightgray;
+	border-radius: 15px;
+	width: 700px;
+	height: 500px;
+	position: relative;
+}
+.quadradoVermelho{
+	width: 100px;
+	height: 100px;
+	margin-left: 20px;
+	background-color: red;
+	position: relative;
+}
+.quadradoVerde{	
+	position: relative;
+	background-color: green;	
+	width: 100px;
+	margin-left: 20px;
+	margin-top: 268px;
+	height: 100px;
+}
+.quadradoAmarelo{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin-left: 580px;
+	margin-top: -485px;
+	background-color: yellow;	
+}
+.quadradoAzul{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	margin-left: 580px;
+	margin-top: 272px;
+	background-color: blue;	
+}

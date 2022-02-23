@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - Array</title>
+    <script>
+        // var course1 = "HTML";
+        // var course2 = "CSS";
+        // var course3 = "JavaScript";
+
+        //Declarando um Array
+        // var courses = new Array("HTML", "CSS", "JavaScript");
+        // courses[1] = "C++";
+        // //Declarando Array dinâmico
+        // var frutas = new Array();
+        // frutas[0] = "Uva";
+        // frutas[1] = "Pêssego";
+        // frutas[2] = "Morango";
+        // console.log(frutas[2]);
+        // var frutas2 = new Array();
+        // frutas2.push("Uva");
+        // frutas2.push("Pêssego");
+        // frutas2.push("Morango");
+        // frutas2.push("Abacaxi");
+        // frutas2.push("Pêra");
+        // frutas2.push("Maçã");
+        // frutas2.push("Laranja");
+        // frutas2.push("Tomate");
+        // for (var i = 0; i < frutas2.length; i++) {
+        //     document.write(frutas2[i] + '<br>');
+        // }
+        var a1 = ['Matheus', 'Thiago', 'Marcus', 'Jeniffer'];
+        var a2 = ['Rebecca', 'Larissa', 'Ketlin', 'Sabrina', 'Miguel', 'Kevin']
+        var turmaA = a1.concat(a2);
+        turmaA.sort().reverse();
+        turmaA.forEach(alunos => document.write(alunos + '<br>'));
+        // frutas2.forEach(item => console.log(item)); //vai percorrer o vetor frutas2
+        // Segunda forma de usar o forEach para percorrer todo um vetor e retornar da forma escolhida, no caso ALERT
+        // frutas2.forEach(function(value, index) {
+        //     return alert(value + " POS = " + index)
+        // });
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

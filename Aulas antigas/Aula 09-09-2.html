@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exercício de Fixação</title>
+</head>
+<body>
+	<form>
+		<label>Nome:</label>
+		<input type="text" value="" placeholder="Nome" name="nome" id="nome" size="40"/><br/>
+		<label>Sobrenome:</label>
+		<input type="text" name="sobrenome" id="sobrenome" size="40" value="" placeholder="Sobrenome"/><br/>
+		<label>Titulo do Trabalho:</label>
+		<input type="text" name="titTrab" id="titTrab" size="40" value="" placeholder="Titulo do Trabalho"/><br/>
+		<label>Código Culter</label>
+		<input type="number" name="codCutter" id="codCutter" value="" style="width: 60px;"/><a href="">Ver tabela</a><br/>
+		<label>Trabalho:</label>
+		<input type="radio" name="trabalho" value="T" id="trabalho"/>Tese
+		<input type="radio" name="trabalho" value="D" id="trabalho"/>Dissertação<br/>
+		<label>Programa:</label>
+		<select name="programa" id="programa">
+			<option value="0">(Selecione)</option>
+		</select><br/>
+		<label>Trabalho:</label>
+		<input type="radio" name="trabalho" value="E" id="trabalho">Especialização<br/>
+		<label>Curso:</label>
+		<input type="text" name="cursoE" id="cursoE" value="" placeholder="Curso"/><br/>
+		<label>Trabalho:</label>
+		<input type="radio" name="trabalho" value="G" id="trabalho">Graduação (Trabalho de Conclusão de Curso)<br/>
+		<label>Curso:</label>
+		<select name="cursoG" id="cursoG">
+			<option value="0">(Selecione)</option>
+		</select><br/>
+		<label>Nome do Orientador:</label>
+		<input type="text" name="nomeOrientador" id="nomeOrientador" value="" placeholder="Nome do Orientador"><br/>
+		<label>Sobrenome do Orientador:</label>
+		<input type="text" name="sobrenomeOrientador" id="sobrenomeOrientador" value="" placeholder="Sobrenome do Orientador"/><input type="checkbox" name="orientadora" id="orientadora" value="s"/>Orientadora<br/>
+		<label>Nome do Coorientador:</label>
+		<input type="text" name="nomeCoorientador" id="nomeCoorientador" value="" placeholder="Nome do Coorientador"><br/>
+		<label>Sobrenome do Coorientador:</label>
+		<input type="text" name="sobrenomeCoorientador" id="sobrenomeCoorientador" value="" placeholder="Sobrenome do Coorientador"/><input type="checkbox" name="coorientadora" id="coorientadora" value="s"/>Coorientadora<br/>
+		<label>Ano:</label>
+		<input type="text" name="ano" id="ano" value="" placeholder="Digite o ano" maxlength="4"/><br/>
+		<label>Nº de páginas, folhas ou volumes:</label>
+		<input type="number" name="pg" id="pg" value="" placeholder="Nº de páginas, folhas ou volumes"/ maxlength="4"><br/>
+		Assuntos (min: 1, máx: 5)<br/>
+		1:<input type="text" name="assunto1" id="assunto1" value="" placeholder="Assunto 1"/><br/>
+		2:<input type="text" name="assunto2" id="assunto2" value="" placeholder="Assunto 2"/><br/>
+		3:<input type="text" name="assunto3" id="assunto3" value="" placeholder="Assunto 3"/><br/>
+		4:<input type="text" name="assunto4" id="assunto4" value="" placeholder="Assunto 4"/><br/>
+		5:<input type="text" name="assunto5" id="assunto5" value="" placeholder="Assunto 5"/><br/>
+		<input type="submit" name="btnEnviar" id="btnEnviar" value="Enviar"/>
+		<input type="reset" name="btnLimpar" id="btnLimpar" value="Limpar"/>
+	</form>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		.semBorda {border: none;}
+		.cpf{background-size: 16px;background-position: right; background-image:url(img/x.png);background-repeat:no-repeat;}
+		.senha{background-size: 16px;background-position: right; background-image:url(img/ok.png);background-repeat:no-repeat;}
+		.cep{background-size: 22px;background-position: right; background-image:url(img/lupa.png);background-repeat:no-repeat;}
+		input{height: 20px;}
+	</style>
+	<meta charset="utf-8">
+	<title>Exercício 3 - Formulário - Página 2</title>
+</head>
+<body>
+	<table>
+		<tr>
+			<td><font color="green" size="6px"><b>CADASTRE-SE<a href="#"></td><td style="width:228px"></td><td><img src="Curtir.png" width="100px"/><img src="Compartilhar.png" width="100px"></a></b></font></td>				
+		</tr>
+		<tr>
+			<td colspan="1000"><hr style="background-color: green; margin-top: -12px; height: 1px;"/></td>
+		</tr>
+	</table>
+		<table border="1" cellpadding="10" style="width: 50%; border-collapse: collapse;">
+			<tr style="background-color:#DCDCDC;">
+				<td colspan="4">Dados de Login</td>			
+			</tr>
+			<tr>
+				<td class="semBorda" style="width:35%">CPF&emsp;&emsp;&emsp;<font color="red" size="2px"><nobr>Formato: xxx.xxx.xxx-xx</nobr></font><br/><input type="text" name="cpf" class="cpf"  placeholder="___.___.___-__" value="" style="border-color:#E9967A; height: 16px; padding-bottom: 6px; width: 95%;"/></td>
+			</tr>
+			<tr>
+				<td class="semBorda" style="padding-right: 0px;">E-mail<br/><input style="width: 92%;" type="mail"  name="email" value=""/></td>
+				<td class="semBorda" style="padding-left: 0px;">&emsp;&nbsp;Confirmar<br/><input style="margin-left: 15px; width: 150%;" type="mail" name="email" value=""/></td>
+				<td class="semBorda">&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;Senha<br/><input type="password" name="senha" value="12345678910" class="senha" style="margin-left: 85px;border-color: #228B22; background-color: #F0E68C; height: 20px; width:50%"/></td>
+				<td class="semBorda" style="padding-left: 0;">&emsp;&nbsp;Confirmar<br/><input style="width:70%; margin-left: 20px;" type="password" name="senha" value=""/></td>
+			</tr>
+		</table>
+		<table border="1" cellpadding="10" style="width: 50%; border-collapse: collapse; margin-top: 33px;">
+			<tr style="background-color:#DCDCDC;">
+				<td colspan="4">Dados de Contato</td>			
+			</tr>		
+			<tr>
+				<td class="semBorda">Nome<br/><input style="width:272px" type="text"  name="nome" value=""/></td>
+				<td class="semBorda">Sobrenome<br/><input type="text" style="width:327px;margin-right: -13px;" name="nome" value=""/></td>
+			</tr>
+			<tr>
+				<td class="semBorda">Nascimento<font color="red" size="2px" style="float: right;margin-right: 62px;">Formato: xx/xx/xxxx</font><br/><input type="text" name="nasc" value="" style="width:210px"/></td>
+				<td class="semBorda"><label style="margin-left:-65px;">RG</label><br/><input style="margin-left:-65px;width:208px;" type="text" name="rg" value=""/></td>
+				<td class="semBorda"><label style="margin-left:-171px">Sexo</label><br/><select name="sexo" style="width: 169px;margin-left: -172px;height:27px;"><option value="0">Selecione</option></select></td>
+			</tr>
+			<tr>
+				<td class="semBorda">CEP<br/><input type="text" name="cep" class="cep" style="width:117px"/></td>
+				<td class="semBorda"><label style="margin-left:-151px">Endereço</label><br/><input type="text" name="endereco" style="width:403px;margin-left:-153px;"/></td>
+				<td class="semBorda"><label style="margin-left:-67px">Nº</label><br/><input type="text" name="num" style="width:56px;margin-left:-67px;"/></td>
+			</tr>
+			<tr>
+				<td class="semBorda">Bairro<br/><input type="text" style="width:205px" name="bairro"/></td>
+				<td class="semBorda"><label style="margin-left:-69px">Complemento</label><br/><input type="text" style="width:205px;margin-left:-69px;" name="complemento"/></td>
+				<td class="semBorda"><label style="margin-left:-181px">Cidade</label><br/><input type="text" style="width:171px;margin-left:-181px" name="cidade"/></td>
+			</tr>			
+			<tr>
+				<td class="semBorda">Estado<br/><select name="estado" style="width: 211px;height:27px;"><option value="0">Selecione</option></select></td>
+				<td class="semBorda"><label style="margin-left:-69px">DDD+Telefone</label><br/><input type="text" style="width:205px;margin-left:-69px;" name="dddtelefone"/></td>
+				<td class="semBorda"><label style="margin-left:-179px">DDD+Celular</label><br/><input type="text" style="width:171px;margin-left:-179px;" name="dddcelular"/></td>
+			</tr>						
+		</table>
+</body>
+</html>

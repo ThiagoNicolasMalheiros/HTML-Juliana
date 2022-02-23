@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 03-12</title>
+    <script>
+        function adicionar() {
+            var texto = document.getElementById('texto').value;
+            var paragrafo = document.createElement('p');
+            paragrafo.innerHTML = texto;
+            var conteudo = document.getElementById('conteudo');
+            conteudo.appendChild(paragrafo);
+
+        }
+
+        function addLimite() {
+            var texto = document.getElementById('textLimited').value;
+            var paragrafo = document.createElement('p');
+            paragrafo.innerHTML = texto;
+            var conteudo = document.getElementById('conteudoLimite');
+            if (conteudo.childElementCount < 4) {
+                conteudo.appendChild(paragrafo);
+            } else {
+                alert('Atingiu o Limite');
+            }
+        }
+
+        function remove() {
+            var pai = document.getElementById('conteudoLimite');
+            var filho = document.getElementById('textRem');
+            pai.removeChild(filho);
+        }
+
+        // var course1 = "HTML";
+        // var course2 = "CSS";
+        // var course3 = "JS";
+        // var courses = new Array("HTML", "CSS", "JS");
+        // var course = courses[0];
+        // courses[1] = "C++";
+        // var courses = new Array(3);
+        // courses[0] = "HTML";
+        // courses[1] = "CSS";
+        // courses[2] = "JS";
+        // var disciplinas = new Array();
+        // var courses = ["HTML", "CSS", "JS"];
+        // document.write(courses.length);
+        // var c1 = ["HTML", "CSS"];
+        // var c2 = ["JS", "C++"];
+        // var courses = c1.concat(c2);
+    </script>
+</head>
+
+<body>
+    <h1>Adicionando elementos</h1>
+    <p>Digite um valor: </p><input type="text" name="texto" id="texto" value="" />
+    <br/><br/><button onclick="adicionar()">Adicionar</button>
+    <div id="conteudo"></div><br/><br/><br/><br/>
+    <h1>Adicionando elementos com limite e removendo</h1>
+    <p>Digite um valor: </p><input type="text" name="texto" id="textLimited" value="" />
+    <br/><br/><button onclick="addLimite()">Adicionar</button>&nbsp;&nbsp;<button onclick="remove()">Remover</button>
+    <div id="conteudoLimite">
+        <p id="textRem">Esse texto será removido</p>
+    </div>
+
+
+</body>
+
+</html>

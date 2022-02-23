@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Aula 02</title>
+    <script>
+        function btn_click() {
+            var x = document.getElementById('paragrafo'); //buscando o ID "parágrafo"
+            if (x.innerHTML == "Olá!") { // condicional - Se o X for "Olá!", exiba "Hello!"
+                x.innerHTML = "Hello!";
+            } else {
+                x.innerHTML = "Olá!";
+            }
+        }
+
+        function troca_img() {
+            var img = document.getElementById('minhaImg');
+            if (img.src.match("lampada_off")) {
+                img.src = "img/lampada_on.png";
+            } else {
+                img.src = "img/lampada_off.png";
+            }
+        }
+
+        function btnSoma() {
+            var x = document.getElementById('x');
+            var y = document.getElementById('y');
+
+        }
+    </script>
+</head>
+
+<body>
+    <p id="paragrafo">Olá!</p>
+    <button onclick="btn_click()">Translate</button>
+    <p><img id="minhaImg" onclick="troca_img()" style="width: 10%;" src="img/lampada_off.png" alt="Lampada Ligada" /></p>
+    <p>Clique na lâmpada para ligar/desligar</p>
+</body>
+
+</html>

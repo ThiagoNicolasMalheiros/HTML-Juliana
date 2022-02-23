@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulário</title>
+</head>
+<body>
+	<fieldset style="background: lightblue; width: 210px;">
+		<fieldset style="width: 200px; background: lightcyan;">
+			<legend>Observações sobre as cidades</legend>
+			<form action="" method="post">
+				<label>Observações</label><br/>
+				<textarea name="obs" id="obs" cols="50" rows="5" style="resize:none;"></textarea><br/>
+				<label>Cidade:</label>
+				<select name="cidade" id="cidade">
+					<option value="0">Selecione</option>
+					<option value="Hortolândia">Hortolândia</option>
+					<option value="Sumaré">Sumaré</option>
+					<option value="Campinas">Campinas</option>
+					<option value="Monte Mor">Monte Mor</option>
+				</select>
+				<input type="submit" name="btnEnviar" value="Enviar"/>
+			</form>
+		</fieldset>
+	</fieldset>
+</body>
+</html>

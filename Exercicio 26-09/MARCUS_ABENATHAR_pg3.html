@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Exercício 3 - Formulário - Página 3</title>
+	<style type="text/css">
+		.semBorda {border: none;}
+		.idade{background-size: 19px;background-position: right; background-image:url(img/seta.png);background-repeat:no-repeat;}
+		.float{font-size: 14px;
+		float: right;}
+	</style>
+</head>
+<body>
+	<table border="1" width="736px" style="padding-right: 50px;">
+		<tr>
+			<td class="semBorda"><img src="img/v.png" style="width:29px"></td>
+			<td class="semBorda">Nome:</td>
+			<td class="semBorda"><input type="text" name="nome" value="" placeholder="Essa é a maneira que você quer ser identificado" style="width:608px;"></td>
+		</tr>
+		<tr>
+			<td class="semBorda"><img src="img/v.png" style="width:29px"></td>
+			<td class="semBorda">CPF:</td>			
+			<td class="semBorda"><input type="text" name="CPF" value="" style="width:150px;margin-right:10px;"/><img src="img/int.jpg" style="width:17px;margin-left: 226px;margin-top: 15px;"/><span class ="float"  class ="float" style="padding-right: 23px;">Utilizamos o CPF para validar<br/>junto à Receita Federal a sua<br/>identidade.</span></td>
+		</tr>
+		<tr>
+			<td class="semBorda"><img src="img/v.png" style="width:29px"></td>
+			<td class="semBorda">Idade:</td>
+			<td class="semBorda"><input type="text" name="idade" class="idade" value="18" style="width:62px;margin-right:49px;margin-bottom:18px"><img src="img/int.jpg" style="width:17px;margin-left:274px;margin-top:15px;"/><span class ="float"  name="idade" style="float:right;">Este serviço só pode ser acessado<br/>por maiores de 17 anos, por isso<br/>precisamos armazenar a sua idade.</span></td>
+		</tr>		
+		<tr>
+			<td class="semBorda"></td>
+			<td class="semBorda">Gênero:</td>			
+			<td class="semBorda"><select style="margin-right:279px;margin-top:15px;width:113px;"><option value="0">Selecione</option></select><img src="img/int.jpg" style="width:17px"><span class ="float"  name="idade" style="float:right;">Opcional - Não precisamos do<br/>gênero, mas se informado o serviço<br/>será customizado para você.</span></td>
+		</tr>				
+		<tr><td class="semBorda" style="height: 30px;"></td></tr>
+		<tr>			
+			<td class="semBorda"></td>
+			<td class="semBorda" colspan="3"><span style="margin-top:10px;">A proteção de dados é a nossa prioridade. Para obter mais<br/>informações sobre como tratamos os seus dados, clique <a href="#">aqui</a><br/>para acessar nossa Politica de Privacidade.</span></td>
+		</tr>
+		<tr>
+			<td class="semBorda" colspan="4"><input type="submit" name="btnEnviar" style="height:45px;width:128px;margin-left:21px;margin-top:31px;"></td>
+		</tr>
+		<tr><td class="semBorda" style="height: 30px;"></td></tr>
+		<tr>
+			<td class="semBorda" colspan="2"><img style="width:29px;margin-left:14px" src="img/v.png"/></td>
+			<td class="semBorda"><span style="margin-left:-32px">Campos obrigatórios</span></td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td class="semBorda">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Fonte: Produção do autor</td>
+		</tr>
+	</table>
+</body>
+</html>

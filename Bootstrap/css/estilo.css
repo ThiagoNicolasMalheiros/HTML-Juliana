@@ -1,0 +1,46 @@
+.logo_doces{
+	width: 200px;
+	margin: -26px;
+}
+.cor_gradiente{
+	background-image: linear-gradient(45deg, lightskyblue, lightgoldenrodyellow, lightcoral) !important;
+}
+.nopadding{
+	padding-left: 0px !important;
+}
+.row{
+	margin-top: 2rem !important;
+}
+
+.card{
+	border: none !important;
+}
+.industrializados{
+	text-align: center !important;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: arial, sans-serif;
+	background-image: linear-gradient(45deg, lightcoral, lightgoldenrodyellow, lightskyblue) !important;
+}
+div{
+	background: none !important;
+}
+a{
+	text-decoration: none !important;
+	color: black;
+}
+
+.zoom{
+	transition: transform .2s;
+	margin: 0 auto;
+}
+.zoom:hover{
+	transform: scale(1.5);
+}
+.zoom-esp:hover{
+	transform: scale(1.2) !important;
+}
+.desc{
+	background-image: linear-gradient(90deg, lightcoral, lightgoldenrodyellow, lightskyblue) !important;
+}
